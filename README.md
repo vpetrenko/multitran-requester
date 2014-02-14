@@ -13,17 +13,19 @@ You need Go 1.1 installation. Also you will need to install go-charset packages 
 
 It's simple:
 
-    go run multitran.go _word_
+    go run multitran.go <word>
 
 Example:
+
     go run multitran.go hello
 
 Output:
+
     hello    приветственный возглас; оклик; восклицание удивления;
 
 Also you can use helper script to prepare batch of cards to [upload](http://orangeorapple.com/Flashcards/Upload.aspx) to [Flashcards Deluxe website](http://orangeorapple.com/Flashcards/):
 
-    ./words.sh _list-of-words-file_
+    ./words.sh <list-of-words-file>
 
 ## License
 
